@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+	body{ font-size:14px; font-family:Verdana, Geneva, sans-serif; }
+	
+	#wrap{ margin:auto; width:980px; overflow:hidden; position:relative; }
+	
+		#wrap h1{ line-height:40px; margin:10px 0; padding:0; }
+	
+		#wrap dl{ margin: 0; border:#93A9CF solid 1px; background:#B2C4EB; border-radius:10px; }
+			#wrap dl dt{ padding:5px 10px; font-size:16px; line-height: 30px; font-weight:bold; color: #FFF; text-shadow: #A5A1A1 1px 1px; }
+			#wrap dl dd{ background:#FFF; margin:0 10px 10px 10px; padding:10px; border-radius:10px; }
+			
+			#wrap dl dd input,#wrap dl dd textarea{ padding:10px; border-radius:5px; border:#999 solid 1px; vertical-align:middle; }
+			
+			#wrap dl dd button{ padding:10px; border-radius:5px; cursor:pointer; background: #435372; color:#FFF; border:#224481 solid 1px; box-shadow: inset #8AA5C9 1px 1px, inset #637791 -1px -1px; outline:none; }
+	
+		#wrap .ctrl{ float:left; width:450px; }
+			#wrap .ctrl p{ margin:10px; vertical-align:text-top; }
+			#wrap .ctrl p strong{ display:block; line-height:30px; color: #3E8DD6; }
+	
+		#wrap .view{ float:left; width:250px; margin-left:20px; }
+			#wrap .view p{ margin:5px; }
+	
+		#wrap .code{ margin-left:745px; overflow: hidden; }
+			#wrap .code pre{ line-height:30px; color:#3A5988; }
+			
+		#wrap .call{ background: #FCF2E4; padding: 15px; border: #F5CDBA solid 2px; color: #FD0B0B; border-radius:5px; }
+
