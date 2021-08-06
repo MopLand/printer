@@ -4,6 +4,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <?php
 header('Content-Type:text/html; charset=utf-8');
+if( isset( $_GET['phpinfo'] ) ){
+	phpinfo();
+}
 include 'Printer.php';
 ?>
 <title>Web 打印机调用</title>
