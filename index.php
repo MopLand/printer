@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+<?php
+if( isset( $_GET['phpinfo'] ) ){
+	phpinfo();
+	die();
+}
+?><!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -6,6 +11,7 @@
 header('Content-Type:text/html; charset=utf-8');
 if( isset( $_GET['phpinfo'] ) ){
 	phpinfo();
+	
 }
 include 'Printer.php';
 ?>
